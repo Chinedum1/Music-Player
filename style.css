@@ -119,10 +119,7 @@ background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
   padding-top: 30px;
   right: 0;
 }
-/* .total-duration {
-  padding-top: 10px;
-  right: 0;
-} */
+
 .seek_slider {
   width: 100%;
   border-radius: 20px;
@@ -139,6 +136,18 @@ background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
   border: 3px solid #3774ff;
   cursor: pointer;
   border-radius: 100%;
+}
+
+.listeners{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  
+}
+.listener {
+  margin: 20px;
+  background-color: white;
 }
 
 .rotate {
